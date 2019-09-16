@@ -1,0 +1,16 @@
+PODS:
+  - ActionStage (0.1.0)
+
+DEPENDENCIES:
+  - ActionStage (from `../`)
+
+EXTERNAL SOURCES:
+  ActionStage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ActionStage: e6ed4592a39f841fa5fdbbcffbbbe8f1b1acaf44
+
+PODFILE CHECKSUM: 3380b1c3f9d1fbdcec0d8d07c9ee6742fe19199b
+
+COCOAPODS: 1.7.1

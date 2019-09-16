@@ -1,0 +1,6 @@
+framework module ActionStage {
+  umbrella header "ActionStage-umbrella.h"
+
+  export *
+  module * { export * }
+}
