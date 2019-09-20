@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0803DD6C63379CC37F80681CD7FDFFC3 /* ActionStage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BEA66075E25734CB25AAFD3768F35B /* ActionStage-dummy.m */; };
+		033E01D5AC35B641F569AE3D80A75823 /* ASHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = F15DD81F5EEBC48A00C6B089CFFF6277 /* ASHandle.m */; };
+		0CD97CDF473B96906E547AC08C524C5C /* ASTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C3436ACE3A7B8136601FCDCA11AAEA9 /* ASTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D2D3F857257EB2E4EA6528BD690AAD7 /* Pods-ActionStage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E5B95D27C133ABD593EA38049F537C /* Pods-ActionStage_Tests-dummy.m */; };
-		1DF47C4DB4EAAD276F4660CA7D94879D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A566FFBB400A9F11091C3DFA2012F2F0 /* ReplaceMe.m */; };
 		2D1469D4C111DBE40745F3B246CFC487 /* Pods-ActionStage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6B622D8C7D81686721933450EA79F2 /* Pods-ActionStage_Example-dummy.m */; };
 		2F1594A1BB7F9E9695DD8E051C266F31 /* Pods-ActionStage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B6B6FE66392BFC24D1FFE245AB86E31 /* Pods-ActionStage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D336C40C90D1B72263C2D3106EA2F18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		7E85F6CC01BA9AF634AE3794A9A8C755 /* ActionStage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B86F38A065C719D36BD76F859C38BE /* ActionStage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36652C8BB808206A052965C5D9D88FD9 /* ASTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 82779D370D0185A49306838B1DD05179 /* ASTimer.m */; };
+		55A62BC2DFCE935293105F171A1EF381 /* ASWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 071A1AFF8CE63C8B56C83326FC1A1B5E /* ASWatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		875501F9DB945EE64B6FBD31A629851C /* ActionStage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B1980DC40C2BB6B5FE20C33C6158F6 /* ActionStage-dummy.m */; };
+		8D114F912C1C1217CCF251CEBEBF463C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		97417C0A9069CF1293A195044E5B799C /* ASHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB22A943F8544D87EB66944BE2EB59F /* ASHandle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6E8743EB25B3A5222BAFC4C5B88105E /* ActionStage.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D9FBE50782227EE2D480A1F80C73D5 /* ActionStage.m */; };
 		AB4B8FDEE6F3FC87F2192497659CEADC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B23C21517B400670E5CD2E47BBA9908A /* ASActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B96EEB7B2CBC33552F337F0AD7C2576 /* ASActor.m */; };
 		CAF2E1741847B66DA7BAA595A5CA4ED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CB324571F7CE0F59C36185DE58652ED4 /* ActionStage.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F310A5101861CB2190666A9F6377BA /* ActionStage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4D819E00EF773DA50DCF78278DD895 /* ASActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 07536C07FB8B2E470A6E1D720EA4E1CE /* ASActor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDF00E599E2A085B0CA800B812EF73A5 /* ActionStage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D308B354202E38A079240F55FC75FE /* ActionStage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FEA4F913276669F231CA5845BD655288 /* Pods-ActionStage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 199530B52BF6619549B7C68850062402 /* Pods-ActionStage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -37,54 +45,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0192CF65D1277E4188EE5EBCD3A5904F /* ActionStage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ActionStage.modulemap; sourceTree = "<group>"; };
-		139E3BB3A5539E960D4824ABB42BA128 /* ActionStage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionStage-prefix.pch"; sourceTree = "<group>"; };
+		06BA522FC0554CB40CBC1E65E34733B1 /* ActionStage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ActionStage-Info.plist"; sourceTree = "<group>"; };
+		071A1AFF8CE63C8B56C83326FC1A1B5E /* ASWatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASWatcher.h; path = ActionStage/Classes/ASWatcher.h; sourceTree = "<group>"; };
+		07536C07FB8B2E470A6E1D720EA4E1CE /* ASActor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASActor.h; path = ActionStage/Classes/ASActor.h; sourceTree = "<group>"; };
 		199530B52BF6619549B7C68850062402 /* Pods-ActionStage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ActionStage_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1E66AEFD0EF5C5BB669A9BA2DD6559EB /* Pods-ActionStage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ActionStage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		28BEA66075E25734CB25AAFD3768F35B /* ActionStage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionStage-dummy.m"; sourceTree = "<group>"; };
-		30571F6AD4E8EB1B85A52EEAC9D8020B /* Pods_ActionStage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ActionStage_Tests.framework; path = "Pods-ActionStage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30571F6AD4E8EB1B85A52EEAC9D8020B /* Pods_ActionStage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActionStage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3761C759A6E0537D8A554BDBA580854D /* ActionStage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ActionStage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3945A70C10E6AF2D57F5AE5008FD4017 /* Pods-ActionStage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ActionStage_Example.modulemap"; sourceTree = "<group>"; };
 		3F8B3ACFD32815885109DC9254521BF4 /* Pods-ActionStage_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ActionStage_Tests-Info.plist"; sourceTree = "<group>"; };
+		40F310A5101861CB2190666A9F6377BA /* ActionStage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionStage.h; path = ActionStage/Classes/ActionStage.h; sourceTree = "<group>"; };
 		4F9EE504ED3BDAFCB563DAEF74457D69 /* Pods-ActionStage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ActionStage_Example.release.xcconfig"; sourceTree = "<group>"; };
-		52B86F38A065C719D36BD76F859C38BE /* ActionStage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionStage-umbrella.h"; sourceTree = "<group>"; };
 		61E5B95D27C133ABD593EA38049F537C /* Pods-ActionStage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ActionStage_Tests-dummy.m"; sourceTree = "<group>"; };
+		6C3436ACE3A7B8136601FCDCA11AAEA9 /* ASTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASTimer.h; path = ActionStage/Classes/ASTimer.h; sourceTree = "<group>"; };
 		6D081482AF66CFFA3C1EA053AE1D0C3B /* Pods-ActionStage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ActionStage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6D8661AEBE066A41210D1A859D288939 /* Pods-ActionStage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ActionStage_Tests.modulemap"; sourceTree = "<group>"; };
-		71184680CC914B9D0DAA6BE02582464C /* ActionStage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ActionStage.framework; path = ActionStage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		71AE75749A58441BAD1BEF79E40F1082 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		71184680CC914B9D0DAA6BE02582464C /* ActionStage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActionStage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D308B354202E38A079240F55FC75FE /* ActionStage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionStage-umbrella.h"; sourceTree = "<group>"; };
 		7B6B6FE66392BFC24D1FFE245AB86E31 /* Pods-ActionStage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ActionStage_Example-umbrella.h"; sourceTree = "<group>"; };
+		82779D370D0185A49306838B1DD05179 /* ASTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASTimer.m; path = ActionStage/Classes/ASTimer.m; sourceTree = "<group>"; };
 		868039FF0BAEAF2500D5A1D779CEEFA8 /* Pods-ActionStage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ActionStage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		89D9FBE50782227EE2D480A1F80C73D5 /* ActionStage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionStage.m; path = ActionStage/Classes/ActionStage.m; sourceTree = "<group>"; };
+		8B96EEB7B2CBC33552F337F0AD7C2576 /* ASActor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASActor.m; path = ActionStage/Classes/ASActor.m; sourceTree = "<group>"; };
+		8E9AD0D1FDCFB904BF27258625A743B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8F6B622D8C7D81686721933450EA79F2 /* Pods-ActionStage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ActionStage_Example-dummy.m"; sourceTree = "<group>"; };
 		9010AFD2752E73CD3FF994FE21105906 /* Pods-ActionStage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ActionStage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		94C742B0FF9691F8218F17EC6952BB81 /* Pods-ActionStage_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ActionStage_Example-Info.plist"; sourceTree = "<group>"; };
-		998CFE4C6124DEB1A53BE5CF89E474DB /* ActionStage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ActionStage-Info.plist"; sourceTree = "<group>"; };
 		9C4A0E8225A3FD7E9CF1A2A40A177ACE /* Pods-ActionStage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ActionStage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F1DDA7452D37C902A8549592D380A29 /* ActionStage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ActionStage.xcconfig; sourceTree = "<group>"; };
-		A566FFBB400A9F11091C3DFA2012F2F0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ActionStage/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A550267C332D97F72906BE50A6AD4C41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B2B1980DC40C2BB6B5FE20C33C6158F6 /* ActionStage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionStage-dummy.m"; sourceTree = "<group>"; };
 		B72853F1D5388B57ECAB2E9FE20CD0DE /* Pods-ActionStage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ActionStage_Example-frameworks.sh"; sourceTree = "<group>"; };
 		B9548D2F2A11F928E994E49A7D214562 /* Pods-ActionStage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ActionStage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DB30199B4F917638474F23D494BC6673 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F78B387AA6FD0A374CCFBA80EECDB817 /* Pods_ActionStage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ActionStage_Example.framework; path = "Pods-ActionStage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1CB0A023D1C8AA5C9769147BF936D44 /* ActionStage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ActionStage.xcconfig; sourceTree = "<group>"; };
+		D5E072CDB9710578C432D99E96C54CB9 /* ActionStage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ActionStage.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D7690283B137C7A61D13A95F6570E442 /* ActionStage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionStage-prefix.pch"; sourceTree = "<group>"; };
+		DAAEFFF44D22BE6651E3900B0AE8800B /* ActionStage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ActionStage.modulemap; sourceTree = "<group>"; };
+		DDB22A943F8544D87EB66944BE2EB59F /* ASHandle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASHandle.h; path = ActionStage/Classes/ASHandle.h; sourceTree = "<group>"; };
+		F15DD81F5EEBC48A00C6B089CFFF6277 /* ASHandle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASHandle.m; path = ActionStage/Classes/ASHandle.m; sourceTree = "<group>"; };
+		F78B387AA6FD0A374CCFBA80EECDB817 /* Pods_ActionStage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActionStage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC83CEFE7563C9A61BF0959CDC9286EE /* Pods-ActionStage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ActionStage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2095182FF94677F825ACF832E75FF7B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D114F912C1C1217CCF251CEBEBF463C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BED75039499539749F2EB97B74BEF19C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AB4B8FDEE6F3FC87F2192497659CEADC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D353AE0376304C580613C8118EA6F6E7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D336C40C90D1B72263C2D3106EA2F18 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,17 +115,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0355C3BD1E3DF6FD59EDCBF03F2803AB /* ActionStage */ = {
-			isa = PBXGroup;
-			children = (
-				A566FFBB400A9F11091C3DFA2012F2F0 /* ReplaceMe.m */,
-				EAFD90C0D1C406E851FA3A2AC30EC8F5 /* Pod */,
-				AF48CFB3081172118979665F32EAF445 /* Support Files */,
-			);
-			name = ActionStage;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		419CFA72C345A2110EC9C09510E8027C /* Pods-ActionStage_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,26 +148,47 @@
 			path = "Target Support Files/Pods-ActionStage_Example";
 			sourceTree = "<group>";
 		};
-		785912C30939D0B94F14885CBFB13675 /* Development Pods */ = {
+		5AE9719F2B20E3767A761C1527149A69 /* ActionStage */ = {
 			isa = PBXGroup;
 			children = (
-				0355C3BD1E3DF6FD59EDCBF03F2803AB /* ActionStage */,
+				40F310A5101861CB2190666A9F6377BA /* ActionStage.h */,
+				89D9FBE50782227EE2D480A1F80C73D5 /* ActionStage.m */,
+				07536C07FB8B2E470A6E1D720EA4E1CE /* ASActor.h */,
+				8B96EEB7B2CBC33552F337F0AD7C2576 /* ASActor.m */,
+				DDB22A943F8544D87EB66944BE2EB59F /* ASHandle.h */,
+				F15DD81F5EEBC48A00C6B089CFFF6277 /* ASHandle.m */,
+				6C3436ACE3A7B8136601FCDCA11AAEA9 /* ASTimer.h */,
+				82779D370D0185A49306838B1DD05179 /* ASTimer.m */,
+				071A1AFF8CE63C8B56C83326FC1A1B5E /* ASWatcher.h */,
+				90305C614AD1745054F58F90F0597059 /* Pod */,
+				7077A810C3BF2922DC8861E1AD68D612 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = ActionStage;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		AF48CFB3081172118979665F32EAF445 /* Support Files */ = {
+		7077A810C3BF2922DC8861E1AD68D612 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0192CF65D1277E4188EE5EBCD3A5904F /* ActionStage.modulemap */,
-				9F1DDA7452D37C902A8549592D380A29 /* ActionStage.xcconfig */,
-				28BEA66075E25734CB25AAFD3768F35B /* ActionStage-dummy.m */,
-				998CFE4C6124DEB1A53BE5CF89E474DB /* ActionStage-Info.plist */,
-				139E3BB3A5539E960D4824ABB42BA128 /* ActionStage-prefix.pch */,
-				52B86F38A065C719D36BD76F859C38BE /* ActionStage-umbrella.h */,
+				DAAEFFF44D22BE6651E3900B0AE8800B /* ActionStage.modulemap */,
+				C1CB0A023D1C8AA5C9769147BF936D44 /* ActionStage.xcconfig */,
+				B2B1980DC40C2BB6B5FE20C33C6158F6 /* ActionStage-dummy.m */,
+				06BA522FC0554CB40CBC1E65E34733B1 /* ActionStage-Info.plist */,
+				D7690283B137C7A61D13A95F6570E442 /* ActionStage-prefix.pch */,
+				74D308B354202E38A079240F55FC75FE /* ActionStage-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ActionStage";
+			sourceTree = "<group>";
+		};
+		90305C614AD1745054F58F90F0597059 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D5E072CDB9710578C432D99E96C54CB9 /* ActionStage.podspec */,
+				A550267C332D97F72906BE50A6AD4C41 /* LICENSE */,
+				8E9AD0D1FDCFB904BF27258625A743B6 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		B45BF6DD0F84C8D0437AD92761CB1198 /* Targets Support Files */ = {
@@ -186,7 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				785912C30939D0B94F14885CBFB13675 /* Development Pods */,
+				ECE6E913836EFE98D1A5D6A5A5F4CB89 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				E791842A641C5237497BCD896110F06E /* Products */,
 				B45BF6DD0F84C8D0437AD92761CB1198 /* Targets Support Files */,
@@ -211,14 +237,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EAFD90C0D1C406E851FA3A2AC30EC8F5 /* Pod */ = {
+		ECE6E913836EFE98D1A5D6A5A5F4CB89 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3761C759A6E0537D8A554BDBA580854D /* ActionStage.podspec */,
-				DB30199B4F917638474F23D494BC6673 /* LICENSE */,
-				71AE75749A58441BAD1BEF79E40F1082 /* README.md */,
+				5AE9719F2B20E3767A761C1527149A69 /* ActionStage */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,11 +256,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DA4CEBEC886E784485E7E9C4B5E21C5 /* Headers */ = {
+		B9D0EABCB57A353F0D533F34F6C8F69A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E85F6CC01BA9AF634AE3794A9A8C755 /* ActionStage-umbrella.h in Headers */,
+				DDF00E599E2A085B0CA800B812EF73A5 /* ActionStage-umbrella.h in Headers */,
+				CB324571F7CE0F59C36185DE58652ED4 /* ActionStage.h in Headers */,
+				DD4D819E00EF773DA50DCF78278DD895 /* ASActor.h in Headers */,
+				97417C0A9069CF1293A195044E5B799C /* ASHandle.h in Headers */,
+				0CD97CDF473B96906E547AC08C524C5C /* ASTimer.h in Headers */,
+				55A62BC2DFCE935293105F171A1EF381 /* ASWatcher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +282,12 @@
 /* Begin PBXNativeTarget section */
 		1A360E364EB83E700F74D0738F19D1E9 /* ActionStage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 14BA911781829A41197E4DF51A49E90D /* Build configuration list for PBXNativeTarget "ActionStage" */;
+			buildConfigurationList = 90E47A533B9B2AF0B2D8FEE24920745F /* Build configuration list for PBXNativeTarget "ActionStage" */;
 			buildPhases = (
-				6DA4CEBEC886E784485E7E9C4B5E21C5 /* Headers */,
-				B6A166558F05E5607B61A167C4608DC8 /* Sources */,
-				D353AE0376304C580613C8118EA6F6E7 /* Frameworks */,
-				F5B2E28B52AA1DE1E507E9439F679F92 /* Resources */,
+				B9D0EABCB57A353F0D533F34F6C8F69A /* Headers */,
+				760A990D15FD926632BE9F5980B89F94 /* Sources */,
+				2095182FF94677F825ACF832E75FF7B0 /* Frameworks */,
+				9FD261293DBC724DF4F7D9F627B27659 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -343,14 +372,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC2F5947BA66DFAA76B361E18E55B441 /* Resources */ = {
+		9FD261293DBC724DF4F7D9F627B27659 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5B2E28B52AA1DE1E507E9439F679F92 /* Resources */ = {
+		CC2F5947BA66DFAA76B361E18E55B441 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,20 +397,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		760A990D15FD926632BE9F5980B89F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				875501F9DB945EE64B6FBD31A629851C /* ActionStage-dummy.m in Sources */,
+				A6E8743EB25B3A5222BAFC4C5B88105E /* ActionStage.m in Sources */,
+				B23C21517B400670E5CD2E47BBA9908A /* ASActor.m in Sources */,
+				033E01D5AC35B641F569AE3D80A75823 /* ASHandle.m in Sources */,
+				36652C8BB808206A052965C5D9D88FD9 /* ASTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86BDC4AC73C9C47DCD253EA5CF5A0AAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2D1469D4C111DBE40745F3B246CFC487 /* Pods-ActionStage_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6A166558F05E5607B61A167C4608DC8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0803DD6C63379CC37F80681CD7FDFFC3 /* ActionStage-dummy.m in Sources */,
-				1DF47C4DB4EAAD276F4660CA7D94879D /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,8 +488,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -561,6 +592,69 @@
 			};
 			name = Debug;
 		};
+		88A30B6F20FD6A3E326683E008FEC86A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1CB0A023D1C8AA5C9769147BF936D44 /* ActionStage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionStage/ActionStage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionStage/ActionStage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ActionStage/ActionStage.modulemap";
+				PRODUCT_MODULE_NAME = ActionStage;
+				PRODUCT_NAME = ActionStage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C85334084DBE8B2E0BDDD2A6EA91C949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1CB0A023D1C8AA5C9769147BF936D44 /* ActionStage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionStage/ActionStage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionStage/ActionStage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ActionStage/ActionStage.modulemap";
+				PRODUCT_MODULE_NAME = ActionStage;
+				PRODUCT_NAME = ActionStage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		CBCF13623F91654F026F3F5143763C95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F9EE504ED3BDAFCB563DAEF74457D69 /* Pods-ActionStage_Example.release.xcconfig */;
@@ -594,37 +688,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		CF6674304FDA65CED38A8C662220429A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F1DDA7452D37C902A8549592D380A29 /* ActionStage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ActionStage/ActionStage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ActionStage/ActionStage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ActionStage/ActionStage.modulemap";
-				PRODUCT_MODULE_NAME = ActionStage;
-				PRODUCT_NAME = ActionStage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		E56B4DF7A9A04715544993D4678162E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -692,50 +755,9 @@
 			};
 			name = Debug;
 		};
-		F1220BCE07EF9BBF5DDCBE20C0A5EBDA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F1DDA7452D37C902A8549592D380A29 /* ActionStage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ActionStage/ActionStage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ActionStage/ActionStage-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ActionStage/ActionStage.modulemap";
-				PRODUCT_MODULE_NAME = ActionStage;
-				PRODUCT_NAME = ActionStage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		14BA911781829A41197E4DF51A49E90D /* Build configuration list for PBXNativeTarget "ActionStage" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF6674304FDA65CED38A8C662220429A /* Debug */,
-				F1220BCE07EF9BBF5DDCBE20C0A5EBDA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -750,6 +772,15 @@
 			buildConfigurations = (
 				EEE89CE3CA724F1B8A77A8A0FFC3B34C /* Debug */,
 				CBCF13623F91654F026F3F5143763C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90E47A533B9B2AF0B2D8FEE24920745F /* Build configuration list for PBXNativeTarget "ActionStage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C85334084DBE8B2E0BDDD2A6EA91C949 /* Debug */,
+				88A30B6F20FD6A3E326683E008FEC86A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,12 +7,20 @@
 //
 
 #import "ASAppDelegate.h"
+#import "ActionStage.h"
+#import "ASTestActor.h"
+#import "ASFileDownloadActor.h"
+#import "ASTestSendCodeRequestActor.h"
 
 @implementation ASAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [ASActor registerActorClass:[ASTestActor class]];
+    [ASActor registerActorClass:[ASFileDownloadActor class]];
+    [ASActor registerActorClass:[ASTestSendCodeRequestActor class]];
+
     return YES;
 }
 

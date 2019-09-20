@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1806920C2333B64700BB9C33 /* ASTestSendCodeRequestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1806920B2333B64700BB9C33 /* ASTestSendCodeRequestActor.m */; };
+		185BCA4F2331182F0094B559 /* ASTestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 185BCA4E2331182F0094B559 /* ASTestActor.m */; };
+		18EC8FD523325B1400AD6878 /* ASFileDownloadActor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EC8FD423325B1400AD6878 /* ASFileDownloadActor.m */; };
+		18EC8FD8233264B200AD6878 /* ASTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EC8FD7233264B200AD6878 /* ASTestView.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +42,14 @@
 
 /* Begin PBXFileReference section */
 		10922E292642F330C5DE4184 /* Pods_ActionStage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActionStage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1806920A2333B64700BB9C33 /* ASTestSendCodeRequestActor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASTestSendCodeRequestActor.h; sourceTree = "<group>"; };
+		1806920B2333B64700BB9C33 /* ASTestSendCodeRequestActor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASTestSendCodeRequestActor.m; sourceTree = "<group>"; };
+		185BCA4D2331182F0094B559 /* ASTestActor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASTestActor.h; sourceTree = "<group>"; };
+		185BCA4E2331182F0094B559 /* ASTestActor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASTestActor.m; sourceTree = "<group>"; };
+		18EC8FD323325B1400AD6878 /* ASFileDownloadActor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASFileDownloadActor.h; sourceTree = "<group>"; };
+		18EC8FD423325B1400AD6878 /* ASFileDownloadActor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASFileDownloadActor.m; sourceTree = "<group>"; };
+		18EC8FD6233264B200AD6878 /* ASTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASTestView.h; sourceTree = "<group>"; };
+		18EC8FD7233264B200AD6878 /* ASTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASTestView.m; sourceTree = "<group>"; };
 		1E17951A9D18672ECA9A3A56 /* Pods-ActionStage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActionStage_Tests.release.xcconfig"; path = "Target Support Files/Pods-ActionStage_Tests/Pods-ActionStage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3DFAFF5153E940394BAFD2EB /* Pods-ActionStage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActionStage_Example.release.xcconfig"; path = "Target Support Files/Pods-ActionStage_Example/Pods-ActionStage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4C7BC689757F1EB9E982AF66 /* ActionStage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ActionStage.podspec; path = ../ActionStage.podspec; sourceTree = "<group>"; };
@@ -137,6 +149,14 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ASViewController.h */,
 				6003F5A6195388D20070C39A /* ASViewController.m */,
+				18EC8FD6233264B200AD6878 /* ASTestView.h */,
+				18EC8FD7233264B200AD6878 /* ASTestView.m */,
+				185BCA4D2331182F0094B559 /* ASTestActor.h */,
+				185BCA4E2331182F0094B559 /* ASTestActor.m */,
+				1806920A2333B64700BB9C33 /* ASTestSendCodeRequestActor.h */,
+				1806920B2333B64700BB9C33 /* ASTestSendCodeRequestActor.m */,
+				18EC8FD323325B1400AD6878 /* ASFileDownloadActor.h */,
+				18EC8FD423325B1400AD6878 /* ASFileDownloadActor.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -364,7 +384,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EC8FD8233264B200AD6878 /* ASTestView.m in Sources */,
 				6003F59E195388D20070C39A /* ASAppDelegate.m in Sources */,
+				185BCA4F2331182F0094B559 /* ASTestActor.m in Sources */,
+				18EC8FD523325B1400AD6878 /* ASFileDownloadActor.m in Sources */,
+				1806920C2333B64700BB9C33 /* ASTestSendCodeRequestActor.m in Sources */,
 				6003F5A7195388D20070C39A /* ASViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
