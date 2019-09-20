@@ -19,8 +19,7 @@ Watcher，观察协议，定义为接收ActionStage的消息
 
 设计图如下
 
-![](./ActionStage.jpg)
-
+![](https://github.com/coderyi/ActionStage/blob/master/ActionStage.jpg)
 
 ## Installation
 
