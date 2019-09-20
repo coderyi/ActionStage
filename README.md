@@ -7,7 +7,7 @@
 
 ActionStage来自于Telegram官方开源的iOS客户端。
 
-ActionStage是一个消息通信、模块解耦的库。
+ActionStage是一个消息通信、模块解耦的框架。
 
 ActionStage，消息的中枢派发模块
 
