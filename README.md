@@ -11,11 +11,11 @@ ActionStage是一个消息通信、模块解耦的框架。
 
 ActionStage，消息的中枢派发模块
 
-Handle，定义为管理Watcher，给Watcher发消息的模块
-
 Actor，处理requestActor的模块
 
 Watcher，观察协议，定义为接收ActionStage的消息
+
+Handle，定义为管理Watcher，给Watcher发消息的模块
 
 设计图如下
 
